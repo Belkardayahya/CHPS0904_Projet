@@ -5,6 +5,6 @@ La version DeepFillv2 est une réimplémentation de DeepFillv2 qui s'inspire de 
 
 ## Test
 `
-cd deepfill_v2 
+cd deepfill_v2. 
 python test.py --image examples/inpaint/case1.png --mask examples/inpaint/case1_mask.png --out examples/inpaint/case1_out_test.png --checkpoint pretrained/states_tf_places2.pth
 `
