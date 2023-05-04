@@ -8,7 +8,7 @@ Dans le cadre du projet CHPS904, deux dossiers ont été créés : generative_in
 
 ## Important
 
-Créer un dossier pretrained et telecharger states_pt_celebahq.pth | states_pt_places2.pth
+Téléchargez les fichiers states_pt_celebahq.pth et states_pt_places2.pth dans le dossier pretrained
 
 ## Test
 `cd deepfill_v2`<br>
