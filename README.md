@@ -6,7 +6,8 @@ Dans le cadre du projet CHPS904, deux dossiers ont été créés : generative_in
 * La version DeepFillv2 est une réimplémentation de DeepFillv2 qui s'inspire de Generative_inpainting. Les détails techniques sont expliqués dans le rapport. Pour tester le code, voici les étapes à suivre :
 
 
-##Important
+## Important
+
 Créer un dossier pretrained et telecharger states_pt_celebahq.pth | states_pt_places2.pth
 
 ## Test
