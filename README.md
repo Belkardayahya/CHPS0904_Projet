@@ -1,10 +1,8 @@
 # CHPS0904_Projet
-Le projet CHPS904 comprend deux dossiers : Generative_inpainting et DeepFillv2_Pytorch.
-Pour les deux versions j'ai pas réussi d'entrainer le modele sur les données que vous nous a fourni qui sont dans /home/blamiroy/LEHIGH-ENGINEERING.
+Dans le cadre du projet CHPS904, deux dossiers ont été créés : Generative_inpainting et DeepFillv2_Pytorch. Malgré mes efforts, je n'ai pas pu entraîner les modèles avec les données fournies qui se trouvent dans le dossier /home/blamiroy/LEHIGH-ENGINEERING pour les deux versions.
 
-La version deepfill_v2 est une réimplémentation de deepfillv2 en s'inspirant de generative_inpainting aussi.
-
-L'approche technique est expliqué dans le Rapport.
+La version DeepFillv2 est une réimplémentation de DeepFillv2 qui s'inspire de Generative_inpainting. Les détails techniques sont expliqués dans le rapport. Pour tester le code, voici les étapes à suivre :
 
 ## Test
-python test.py --image examples/inpaint/case1.png --mask examples/inpaint/case1_mask.png --out examples/inpaint/case1_out_test.png --checkpoint pretrained/states_tf_places2.pth
+`cd deepfill_v2 
+python test.py --image examples/inpaint/case1.png --mask examples/inpaint/case1_mask.png --out examples/inpaint/case1_out_test.png --checkpoint pretrained/states_tf_places2.pth`
