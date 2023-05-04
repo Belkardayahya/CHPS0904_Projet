@@ -7,3 +7,4 @@ La version deepfill_v2 est une réimplémentation de deepfillv2 en s'inspirant d
 L'approche technique est expliqué dans le Rapport.
 
 ## Test
+python test.py --image examples/inpaint/case1.png --mask examples/inpaint/case1_mask.png --out examples/inpaint/case1_out_test.png --checkpoint pretrained/states_tf_places2.pth
